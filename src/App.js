@@ -1,7 +1,13 @@
 import React from "react";
-import { Text } from "react-native"
+import { View } from "react-native"
 import PrimeiroComponente from "./components/PrimeiroComponente";
+import CompDefault, { Comp1, Comp2 } from "./components/Multi"
 
 export default () => (
-    <PrimeiroComponente/>
+    <View>
+        <PrimeiroComponente />
+        <CompDefault />
+        <Comp1 />
+        <Comp2 />
+    </View>
 )
