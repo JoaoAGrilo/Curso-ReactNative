@@ -4,6 +4,7 @@ export default StyleSheet.create({
     txtG: {
         fontSize: 24,
         textAlign: "center",
+        color: "#606060"
     },
 
     txtM: {

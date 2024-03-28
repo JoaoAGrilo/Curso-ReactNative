@@ -5,7 +5,7 @@ import Estilo from "./estilo"
 export default () => {
     return (
         <View>
-            <Text style={Estilo.txtG}>Olá mundo!</Text>
+            <Text style={Estilo.txtG}>Hello World!</Text>
         </View>
     )
 }
