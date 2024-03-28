@@ -4,7 +4,7 @@ import Estilo from "./estilo";
 
 export default ({min, max}) => {
     const delta = max - min + 1
-    const numAleatorio = Math.floor(Math.random() * delta) + min;
+    const numAleatorio = parseInt(Math.random() * delta) + min
 
     return (
         <Text style={Estilo.txtG}>Número: {numAleatorio}</Text>
